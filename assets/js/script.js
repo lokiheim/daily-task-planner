@@ -16,9 +16,18 @@ for (i = 9; i < 18; i++) {
     div.setAttribute("class", "hour col-2")
     timeBlock.appendChild(div);
 
+    const currentHour = moment().hour(); 
+
     textarea.innerHTML = "";
     textarea.setAttribute('class', 'col-8')
     textarea.value = localStorage.getItem(+i + ":00");
+    if (i === currentHour) {
+        textarea.classList.add("present")
+    } else if (i < currentHour) {
+        textarea.classList.add("past")
+    } else {
+        textarea.classList.add("future")
+    }
     timeBlock.appendChild(textarea);
 
     button.innerHTML = "Save";
@@ -35,3 +44,5 @@ for (i = 9; i < 18; i++) {
     })
     ;
 }
+
+
