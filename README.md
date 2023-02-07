@@ -15,9 +15,17 @@ just start the page and type in the time slot required.
 
 any modern web browsers should work
 
-## ScreenShot
+## ScreenShot and Links
 
 ![Alt text](../../Downloads/FireShot/FireShot%20Capture%20013%20-%20Work%20Day%20Scheduler%20-%20.png)
+
+daily task planner links are:
+
+Deployed site:
+https://lokiheim.github.io/daily-task-planner/
+
+Github Repo:
+https://github.com/lokiheim/daily-task-planner
 
 ### Installing
 
