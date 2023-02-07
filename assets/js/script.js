@@ -1,4 +1,8 @@
 //structure
+const currentTime = moment().format("DD/MM/YYYY H:m");
+document.getElementById("currentDay").innerHTML = currentTime;
+console.log(currentTime)
+
 const container = document.querySelector(".container");
 
 for (i = 9; i < 18; i++) {
